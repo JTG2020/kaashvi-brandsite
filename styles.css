@@ -95,8 +95,7 @@ section { padding: 96px 0; }
   position: sticky;
   top: 0;
   z-index: 20;
-  background: rgba(245, 242, 236, 0.92);
-  backdrop-filter: blur(10px);
+  background: var(--ivory);
   border-bottom: 1px solid var(--line);
 }
 .header-inner {
@@ -104,10 +103,10 @@ section { padding: 96px 0; }
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  padding: 0.65rem 0;
+  padding: 0.5rem 0;
 }
 .brand { display: inline-flex; align-items: center; }
-.brand img { height: 46px; width: auto; }
+.brand img { height: 64px; width: auto; }
 
 /* Hero */
 .hero { padding-top: 3rem; padding-bottom: 0; }
@@ -256,7 +255,7 @@ h1 { font-size: clamp(2.3rem, 5.6vw, 4rem); font-weight: 700; margin-bottom: 1.1
 /* Footer */
 .site-footer { background: var(--navy); color: #E7ECF6; padding: 56px 0; }
 .footer-inner { display: flex; flex-direction: column; align-items: flex-start; gap: 1.1rem; }
-.footer-logo { height: 52px; width: auto; }
+.footer-logo { height: 72px; width: auto; }
 .footer-name {
   font-family: "Fraunces", Georgia, serif;
   font-size: 1.3rem;
